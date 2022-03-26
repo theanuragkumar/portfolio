@@ -25,12 +25,12 @@ const About = () => {
         <div className="row alignCenter">
           <div className="col-6">
             <div className="about__img">
-              <img src="/images/anu.png" alt="man" />
+              <img src="https://i.ibb.co/3RgZbC7/anu.png" alt="man" />
             </div>
           </div>
           <div className="col-6">
             <div className="about__info">
-              <h1>Hi There</h1>
+              <h1>Hi, </h1>
               <div className="about__info-p1">
               I am Full Stack Java Developer​ having hands on experience in Spring, Spring Boot, MicroService, Rest Api, HTML, CSS, JavaScript, React Js. 
               </div>

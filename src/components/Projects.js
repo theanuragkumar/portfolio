@@ -4,8 +4,8 @@ import {
   FaCamera,
   FaCircleNotch,
   FaApple,
-  FaFileVideo,
-  FaSearchDollar,
+  // FaFileVideo,
+  // FaSearchDollar,
 } from "react-icons/fa";
 const Services = () => {
   const [header] = React.useState({

@@ -10,23 +10,22 @@ const Nav = () => {
         <div className="navbar__container">
           <ul className="navbar__left">
             <div className="navbar__left-logo">
-              <img src="/images/logo.png" alt="logo" />
+            <h1 className="mainHeader">Portfolio</h1>
             </div>
           </ul>
           {state ? (
             <ul className="navbar__right">
-
               <li>
-              <Link activeClass="active" to="home" spy={true} smooth={true}>Home</Link>
+              <Link to="home"  smooth={true}>Home</Link>
               </li>
               <li>
-              <Link  to="projects" spy={true} smooth={true}>Projects</Link>
+              <Link  to="projects"  smooth={true}>Projects</Link>
               </li>
               <li>
-              <Link  to="about" spy={true} smooth={true}>About</Link>
+              <Link  to="about"  smooth={true}>About</Link>
               </li>
               <li>
-              <Link  to="skills" spy={true} smooth={true}>Skills</Link>
+              <Link  to="skills"  smooth={true}>Skills</Link>
               </li>
               <li>
               <Link  to="contact" spy={true} smooth={true}>Contact</Link>
