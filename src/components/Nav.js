@@ -37,7 +37,7 @@ const Nav = () => {
         </div>
       </div>
       <div className="toggle" onClick={() => setState(!state)}>
-        <FaAlignJustify />
+       <FaAlignJustify />
       </div>
     </nav>
   );

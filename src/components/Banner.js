@@ -1,5 +1,4 @@
 import React from "react";
-import { Wave } from 'react-animated-text';
 import Typist from 'react-typist';
 import {
   FaFacebookF,
@@ -39,13 +38,12 @@ const Banner = () => {
                 <div className="banner-text">                 
                 <Typist cursor={{show: false}}>
                       <h1> {state.title} </h1>
-                      <Typist.Delay ms={500} />
                       <p>{state.text}</p>
                 </Typist>  
                 
                 </div>
                 <div className="header__buttons">
-                  <a href="https://drive.google.com/file/d/1g1-2JeP3w_3v-9S7oXJUFELSEred7qO2/view?usp=sharing" className="btn btn-outline" target="_blank">
+                  <a href="https://drive.google.com/file/d/1g1-2JeP3w_3v-9S7oXJUFELSEred7qO2/view?usp=sharing" className="btn btn-outline" target="_blank" rel="noopener noreferrer">
                     My Resume
                   </a>
                   &nbsp;&nbsp;&nbsp;
@@ -57,7 +55,7 @@ const Banner = () => {
           </div>
           <div className="col-6">
             <div className="banner__img">
-              <img src="https://i.ibb.co/3RgZbC7/anu.png" />
+              <img src="https://i.ibb.co/3RgZbC7/anu.png" alt="" />
 
             </div>
           </div>

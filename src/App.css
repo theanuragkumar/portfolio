@@ -15,8 +15,8 @@ body {
   width: 100%;
   height: max-content;
   background: url("https://i.ibb.co/RCf5LR8/bg.png");
+  background-color: #1f2235;
   background-repeat: no-repeat;
-
   background-size: 100% 100%;
   overflow: hidden;
 }
@@ -364,6 +364,83 @@ body {
   display: none;
 }
 @media (max-width: 1200px) {
+  
+  .container {
+    width: 100%;
+    padding: 0 50px;
+  }
+  
+  .col-6 {
+    width: 50%;
+  }
+  .col-3 {
+    width: 50%;
+  }
+  .col-4 {
+    width: 33%;
+  }
+  .navbar__right {
+    flex-direction :column;
+    width: 100%;
+    align-items: center;
+    background: #1f2235;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+  }
+  .navbar__right li a {
+    display: block;
+    padding: 20px 0;
+    font-size: 14px;
+  }
+  .toggle {
+    display: flex;
+
+    
+  }
+  .banner__img img {
+   display: block;
+  }
+  .header__section h1 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .header__section p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 50px;
+    margin-right: 30px;
+  }
+  .common {
+    width: 100%;
+  }
+  .h-650 {
+    height: auto;
+  }
+  .price__rs {
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: 15px;
+  }
+  .price__rs span {
+    font-size: 25px;
+  }
+  .about__img {
+    margin-left: 10%;
+  }
+  .about__img img {
+
+    width: 250px;
+    height: 300px;
+  }
+
+}
+
+@media (max-width: 800px) {
+  
   .container {
     width: 100%;
     padding: 0 50px;
@@ -379,13 +456,14 @@ body {
     width: 100%;
   }
   .navbar__right {
-    flex-direction: column;
+    flex-direction :column;
     width: 100%;
     align-items: center;
     background: #1f2235;
     position: fixed;
     top: 0;
     left: 0;
+    
   }
   .navbar__right li a {
     display: block;
@@ -394,6 +472,7 @@ body {
   }
   .toggle {
     display: flex;
+
     
   }
   .banner__img img {
@@ -426,12 +505,15 @@ body {
     font-size: 25px;
   }
   .about__img {
-    margin-left: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
   .about__img img {
 
-    width: 150px;
-    height: 200px;
+    width: 200px;
+    height: 300px;
   }
 
 }

@@ -1,9 +1,9 @@
 import React from "react";
 import {
   FaFacebookF,
-  FaTwitter,
   FaLinkedin,
   FaInstagram,
+  FaEnvelope
   // FaPlay,
 } from "react-icons/fa";
 const Contact = () => {
@@ -20,18 +20,19 @@ const Contact = () => {
               
               <ul className="contactCircles">
                 <li>
-                  <a href="https://www.facebook.com/theanuragkumarofficial"><FaFacebookF className="headerIcon" /></a>
+                  <a href="https://www.facebook.com/theanuragkumarofficial" target="_blank" rel="noopener noreferrer"><FaFacebookF className="headerIcon" /></a>
                 </li>
                 <li>
-                  <a href="https://twitter.com/Anuragk60343012"><FaTwitter className="headerIcon" /> </a>
+                  <a href="mailto:theanuragkumarofficial.com" target="_blank" rel="noopener noreferrer"><FaEnvelope className="headerIcon" /> </a>
                 </li>
 
                 <li>
-                  <a href="https://www.linkedin.com/in/theanuragkumar/"><FaLinkedin className="headerIcon" /></a>
+                  <a href="https://www.linkedin.com/in/theanuragkumar/" target="_blank" rel="noopener noreferrer"><FaLinkedin className="headerIcon" /></a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/anuragkumarofficial/"><FaInstagram className="headerIcon" /></a>
+                  <a href="https://www.instagram.com/anuragkumarofficial/" target="_blank" rel="noopener noreferrer"><FaInstagram className="headerIcon" /></a>
                 </li>
+                
               </ul>
               <br></br>
               <p id="footer-content">
